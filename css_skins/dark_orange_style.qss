@@ -1,0 +1,103 @@
+QWidget {
+    font-size: 15px;
+}
+
+/* QTextBrowser for conversation window */
+QTextBrowser {
+    background-color: #282c34; /* Dark background */
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+/* QTextEdit for message input */
+QTextEdit {
+    background-color: #373c47; /* Darker background */
+    color: white;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #1e2125;
+}
+
+/* QPushButton for Submit and Clear buttons */
+QPushButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+QPushButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* QStatusBar */
+QStatusBar {
+    background-color: #1e2125; /* Darker background */
+    color: white;
+    font-size: 12px;
+}
+
+/* QTabWidget */
+QTabWidget {
+    background-color: #282c34; /* Dark background */
+    color: white;
+    font-size: 15px;
+}
+
+/* QMenuBar */
+QMenuBar {
+    background-color: #1e2125; /* Darker background */
+    color: white;
+    font-size: 14px;
+}
+
+QMenuBar::item {
+    padding: 4px 8px;
+}
+
+QMenuBar::item:selected {
+    background-color: #37474F; /* Darker blue when selected */
+}
+
+/* QSlider */
+QSlider {
+    background-color: #373c47; /* Darker background */
+}
+
+QSlider::groove:horizontal {
+    background-color: #373c47; /* Darker background */
+    height: 5px;
+}
+
+QSlider::handle:horizontal {
+    background-color: #4CAF50; /* Green handle */
+    width: 18px;
+    height: 18px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+    border-radius: 9px;
+}
+
+/* QSplitter */
+QSplitter::handle {
+    background-color: #4CAF50; /* Green handle */
+    width: 8px;
+    margin: 0;
+}
+
+/* QToolButton */
+QToolButton {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+QToolButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
